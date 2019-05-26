@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <LinearLayout
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:weightSum="4"
+        android:scrollbars="vertical"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#009586"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+            <Button
+                android:backgroundTint="#fff"
+                android:id="@+id/back"
+                android:layout_width="25dp"
+                android:layout_height="20dp"
+                android:background="@drawable/less" />
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="260dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:text="طريقك للحياة الصحية" />
+
+        </LinearLayout>
+
+
+
+        <TextView
+
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ان هذا النظام الصحي يجعلك تسيطر على ضغط الدم  و بدء حياة صحية جديدة 
+ينقسم الى ثلاث اقسام تمارس كل يوم 
+
+اولا: الاكل الصحي 
+
+"
+     android:textColor="#009586" />
+        <TextView
+
+            android:textSize="30sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="اولا: الاكل الصحي "
+            android:textColor="#009586" />
+
+        <ImageView
+
+            android:src="@drawable/ass5"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"/>
+
+        <ImageView
+
+            android:src="@drawable/ass7"
+            android:layout_width="match_parent"
+            android:layout_height="530dp"/>
+
+        <TextView
+
+            android:textSize="30sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="
+شروط الوجبة الصحية :
+"
+            android:textColor="#009586" />
+
+        <TextView
+
+
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="
+
+
+١-. الاكثار من تناول الفواكه والخضروات و شرب الكثير من السوائل واجعل هدفك من 3-2 لتر يومي
+
+
+
+
+
+" android:textColor="#009586" />
+        <TextView
+
+
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="
+
+
+٢-. تناول الدهون الصحية المشبعة مثل السمك والمكسرات والبذور
+
+
+
+
+" android:textColor="#009586" />
+        <TextView
+
+
+            android:layout_marginRight="16dp"
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="
+
+
+٣-. تجنب النكهات المضافة مثل الملونات والنكهات الاصطناعية والمحليات
+
+
+
+" android:textColor="#009586" />
+
+        <TextView
+
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="
+٤-. االتقليل او الامتناع عن تناول الدهون الغير مشبعة ( الزيت والدهون المهدرجه )
+
+" android:textColor="#009586" />
+        <TextView
+
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="
+
+٥-.تقليل من ملح الطعام
+
+" android:textColor="#009586" />
+
+        <TextView
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="
+
+
+ ٦- تقليل من تناول اللحوم الحمراء
+" android:textColor="#009586" />
+
+        <ImageView
+
+
+            android:src="@drawable/ass1"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"/>
+
+        <TextView
+
+            android:textSize="30sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="توصف ادويه الضغط من قبل الطبيب بعد تشخيص المرض وتنقسم الى عده انواع :
+"            android:textStyle="bold"
+            android:textColor="#009586" />
+
+
+        <TextView
+
+
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="
+
+١-.مدررات البول : تعمل على تخليص من السوائل والاملاح الزائدة عن حاجته
+"
+            android:textColor="#009586" />
+
+        <TextView
+
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="
+
+٢-. حاجزات الفا : تعمل على ارخاء الأوعية الدموية وتقليل مقاومتها
+"
+            android:textColor="#009586" />
+
+
+        <TextView
+
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="
+
+٣-.حاجزات بيتا : تقلل قوه انقباض القلب وابطاء سرعته وكذلك تفلل من مقاومه الأوعية الدموية
+"
+            android:textColor="#009586" />
+
+
+        <TextView
+
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="
+
+
+٤-.مضادات الانجوتينسين: تعمل على ارتخاء الأوعية الدموية وتعتبر من افضل الأدوية التي تستخدم لخفض ضغط الدم وخاصه للأشخاص المصابين بأمراض الكلى المزمنة وفشل القلب
+
+
+"
+            android:textColor="#009586" />
+
+
+        <TextView
+
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="
+٥- حاجزات قناه الكالسيوم : تقوم بإرخاء جدران الأوعية الدموية وتقليل الجهد المسلط على القلب
+
+"
+            android:textColor="#009586" />
+
+        <TextView
+
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="
+
+٦-.مثبطات الرنين : تعمل على تقليل او منع افراز هرمون الرنين من الكلية وذلك لان هذا لأنزيم يعمل على احداث سلسله من التفاعلات الكيميائية التي تؤدي في النهاية الى ارتفاع ضغط الدم ينصح الاطباء باستخدام دواء الاسبرين بجرعات يوميه خفيفة لتقليل الإصابة بالجلطات"
+
+            android:textColor="#009586" />
+
+
+
+
+
+        <ImageView
+
+
+            android:src="@drawable/aq"
+            android:layout_width="match_parent"
+            android:layout_height="280dp"/>
+
+        <TextView
+
+
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="المشي لمده 20 الى 30 دقيقه يوميا وتكون افضل فتره لهذه الرياضة هيه فتره الصباح الباكر"
+
+            android:textStyle="bold"
+            android:textColor="#009586" />
+
+
+        <ImageView
+
+
+            android:src="@drawable/ar"
+            android:layout_width="match_parent"
+            android:layout_height="280dp"/>
+
+        <TextView
+
+
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+android:text="١-. يجب ان يقاس ضغط الدم مره في اليوم على ان يكون الشخص في حاله سكون واسترخاء 
+
+
+"
+            android:textStyle="bold"
+            android:textColor="#009586" />
+        <TextView
+
+
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="
+
+٢-. تسجيل القراءة في سجل خاص بالمريض لمتابعة عملية تحسن المرض 
+"
+
+            android:textStyle="bold"
+            android:textColor="#009586" />
+
+        <TextView
+
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:text="
+
+٣-. خلال فترة النظام سوف يبدا ضغط الدم بالانخفاض وعند وصوله الى الحد الادنى يجب عليك مراجعه  الطبيب لغرض تقليل جرعه الدواء او تركه "
+            android:textStyle="bold"
+            android:textColor="#009586" />
+
+
+        
+    </LinearLayout>
+</ScrollView>

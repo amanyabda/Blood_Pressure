@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <LinearLayout
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:weightSum="4"
+        android:scrollbars="vertical"
+        android:layout_height="match_parent">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00956d"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+            <Button
+                android:backgroundTint="#fff"
+                android:id="@+id/back"
+                android:layout_width="25dp"
+                android:layout_height="20dp"
+                android:background="@drawable/less" />
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="260dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:layout_marginLeft="30dp"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:text="الرئيسية" />
+
+        </LinearLayout>
+
+        <ImageView
+
+            android:layout_width="400dp"
+            android:layout_height="300dp"
+            android:scaleType="center"
+            android:src="@drawable/as"/>
+
+
+
+
+
+        <TextView
+
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="هو حالة مرضية شائعة يكون فيها ضغط الدم على جدران الأوعية الدموية عاليا في حالتي تقلص عضلة القلب وانبساطها فيسمى في حالة التقلص بالضغط الانقباضي (العالي) وفي حالة الانبساط بالضغط الانبساطي  (الواطئ) وذلك لأسباب عديدة منها السمنة والسكري وامراض اخرى سنتطرق لها بالتفصيل 
+.
+
+
+"
+
+            android:textColor="#009586" />
+
+        <TextView
+
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+              android:text="ان هذا التطبيق تم انشائه على يد مختصين لمساعدتك في التعرف الكامل على مرض ضغط الدم و السيطرة عليه من خلال خطة علمية سهلة التطبيق , حيث ستلاحظ بعد انتهاء مدة تطبيق الخطة انك لن تعاني من مرض ضغط الدم و اصبحت اكثر صحة  
+.
+ يركز هذا الدليل على مرض ضغط الدم الشائع"
+
+            android:textColor="#009586" />
+
+
+
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/banner_ad_unit_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            />
+    </LinearLayout>
+</ScrollView>

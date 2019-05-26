@@ -1,0 +1,39 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#00796B</item>
+        <item name="colorPrimaryDark">#00796B</item>
+        <item name="colorAccent">#00796B</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <!-- Dialog -->
+    <style name="RatingDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:background">@android:color/white</item>
+        <item name="buttonBarPositiveButtonStyle">@style/RatingDialogStyle</item>
+        <item name="buttonBarNegativeButtonStyle">@style/RatingDialogStyle</item>
+        <item name="buttonBarNeutralButtonStyle">@style/RatingDialogStyle</item>
+    </style>
+
+    <style name="RatingDialogButtonStyle" parent="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+
+    <style name="RatingFadeAnimation">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+    <style name="animation">
+        <item name="android:windowEnterAnimation">@anim/in_animation</item>
+        <item name="android:windowExitAnimation">@anim/out_animation</item>
+    </style>
+</resources>

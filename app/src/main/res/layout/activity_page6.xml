@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:weightSum="4"
+        android:scrollbars="vertical"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#009586"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+            <Button
+                android:backgroundTint="#fff"
+                android:id="@+id/back"
+                android:layout_width="25dp"
+                android:layout_height="20dp"
+                android:background="@drawable/less" />
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="260dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:layout_marginLeft="30dp"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:text="العلاج" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="ينقسم علاج ارتفاع ضغط الدم الى قسميين رئيسين هما: "
+            android:textColor="#009586" />
+
+        <TextView
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" اولا :  "
+            android:textColor="#009586" />
+
+
+
+
+        <TextView
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="تغير نمط العيش والابتعاد عن العادات السيئة التي تزيد من خطورة المرض "
+            android:textColor="#009586" />
+
+
+        <TextView
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" ثانيا :"
+            android:textColor="#009586" />
+
+        <TextView
+            android:textColor="#009586"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" استخدام الأدوية الخافضة للضغط والتي بدورها تمنع حدوث مضاعفات جديده"
+
+             />
+
+        <ImageView
+            android:src="@drawable/ass"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"/>
+
+
+        <TextView
+            android:textSize="30sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="اولا: تغير نمط الحياة :
+
+    
+" android:textColor="#009586" />
+
+    <TextView
+        android:textSize="25sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" يجب على المريض القيام بتغير لأسلوب حياته ونمط معيشته ومن اهم تلك الامور:
+
+    
+" android:textColor="#009586" />
+
+</LinearLayout>
+        <ImageView
+            android:src="@drawable/ass1"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"/>
+
+
+        <TextView
+
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+    android:text="
+
+    ١-.مدررات البول
+    "
+            android:textStyle="bold"
+            android:textColor="#009586" />
+            <TextView
+                android:textSize="25sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="
+
+ تعمل على تخليص من السوائل والاملاح الزائدة عن حاجته
+"
+                android:textColor="#009586" />
+
+
+
+        <TextView
+            android:textStyle="bold"
+            android:textColor="#009586"
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="
+٢-. حاجزات الفا :
+
+"
+            />
+        <TextView
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="
+ تعمل على ارخاء الأوعية الدموية وتقليل مقاومتها
+
+"
+
+            android:textColor="#009586" />
+
+
+        <TextView
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="
+
+٣-.حاجزات بيتا :
+
+
+
+"            android:textStyle="bold"
+            android:textColor="#009586" />
+
+        <TextView
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="
+
+ تقلل قوه انقباض القلب وابطاء سرعته وكذلك تفلل من مقاومه الأوعية الدموية
+
+
+
+"
+            android:textColor="#009586" />
+
+        <TextView
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="
+
+
+
+٤-.مضادات الانجوتينسين:
+"
+
+            android:textStyle="bold"
+            android:textColor="#009586" />
+
+        <TextView
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="
+
+
+
+ تعمل على ارتخاء الأوعية الدموية وتعتبر من افضل الأدوية التي تستخدم لخفض ضغط الدم وخاصه للأشخاص المصابين بأمراض الكلى المزمنة وفشل القلب
+"
+            android:textColor="#009586" />
+        <TextView
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="
+
+٥- حاجزات قناه الكالسيوم :
+"            android:textStyle="bold"
+            android:textColor="#009586" />
+
+        <TextView
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="
+
+ تقوم بإرخاء جدران الأوعية الدموية وتقليل الجهد المسلط على القلب
+
+"
+            android:textColor="#009586" />
+        <TextView
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="
+
+
+٦-.مثبطات الرنين :"
+            android:textStyle="bold"
+            android:textColor="#009586" />
+        <TextView
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="
+
+
+ تعمل على تقليل او منع افراز هرمون الرنين من الكلية وذلك لان هذا لأنزيم يعمل على احداث سلسله من التفاعلات الكيميائية التي تؤدي في النهاية الى ارتفاع ضغط الدم ينصح الاطباء باستخدام دواء الاسبرين بجرعات يوميه خفيفة لتقليل الإصابة بالجلطات"
+            android:textColor="#009586" />
+
+
+        <ImageView
+
+            android:src="@drawable/ass2"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"/>
+
+        <TextView
+
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+android:text="١-. الزعفران:  
+
+"
+            android:textStyle="bold"
+            android:textColor="#009586" />
+        <TextView
+
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="يعمل الزعفران على خفض ضغط الدم المرتفع ، حيث يمكن إضافته في إعداد بعض الوجبات ، أو تناوله على شكل مشروب الزعفران . 
+
+"
+            android:textColor="#009586" />
+        <TextView
+
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="
+٢-. الكرفس :
+
+"
+            android:textStyle="bold"
+            android:textColor="#009586" />
+        <TextView
+
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="
+يتمّ تناول الكرفس طازجاً دون طهي، لنحصل على نتيجة أفضل لعلاج ضغط الدم المرتفع.
+
+"
+            android:textColor="#009586" />
+        <TextView
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="
+٣-.الجزر:
+
+"
+            android:textStyle="bold"
+            android:textColor="#009586" />
+
+        <TextView
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="
+تناول الجزر قضماً أو على شكل عصير طازج، حيث إنّه يساعد في خفض ضغط الدم.
+
+"
+            android:textColor="#009586" />
+        <TextView
+
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="
+٤-.البروكلي:
+"
+            android:textStyle="bold"
+            android:textColor="#009586" />
+
+        <TextView
+
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="
+أكل البروكلي  طازجاً، فهو يحتوي مركبات تعمل كخافض لضغط الدم، ويفضل أكله طازجاً كي لا يفقد من نسبة مركباته أثناء الطهي.
+
+"
+            android:textColor="#009586" />
+        <ImageView
+
+            android:src="@drawable/ass3"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"/>
+
+        <TextView
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text=" ١-. احرص على الاكثار من الأطعمة التي تحتوي على نسبة كبيرة من فيتامين ب والذي اثبت قدرته على تحسين تنظيم ضغط الدم والدورة الدموية
+
+"
+            android:textColor="#009586" />
+
+
+        <TextView
+
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="
+٢-. التقليل من تناول السكر والأطعمة التي تحتوي على الدهون والحرص على تناول كميات
+من الخضروات والفواكه الطازجة 
+"
+            android:textColor="#009586" />
+
+
+        <TextView
+
+
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="
+٣-.الحرص على شرب الماء يوما بالكميات المطلوبة  خاصه ان الجفاف من العوامل
+ التي تؤدي الى انخفاض ضغط الدم"
+            android:textColor="#009586" />
+
+        <TextView
+
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="
+٤-. اتبع نظام غذائي خاص من خلال زياده كميه
+ الملح والصوديوم و بالتالي زياده حجم الدم والذي يؤدي  الى ارتفاع ضغط
+الدم مع ضرورة استشاره الطبيب "
+            android:textColor="#009586" />
+
+        <TextView
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" ٥- حافظ على تناول مشروبات صحيه وتجنب المشروبات السكرية "
+            android:textColor="#009586" />
+        <TextView
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="
+ ٦- الحرص على ارتداء جوارب مريحه لأنها تحافظ على تنظيم
+ الدورة الدموية وبالتالي الحفاظ على ضغط الدم
+"
+            android:textColor="#009586" />
+
+
+        <ImageView
+            android:src="@drawable/ass2"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"/>
+
+        <TextView
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+           android:text="١-. الشعير:
+
+"
+            android:textStyle="bold"
+            android:textColor="#009586" />
+
+
+
+        <TextView
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text=" يتمّ طحن مقدار 3 ملاعق من حبوب الشعير، ثمّ يتمّ إضافة 3 ملاعق من الماء المعدني، يتم خلطهم جيداً، يتمّ تغطيته ثمّ يترك مدّة 7 ساعات، يؤخذ هذا المزيج صباحاً ومساء، ويمكن إضافة فاكهة مبشورة إليه حسب الرغبة، تعمل هذه الوصفة على رفع ضغط الدم المرتفع
+
+"
+            android:textColor="#009586" />
+        <TextView
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="
+٢-. الشمندر:
+
+"
+            android:textStyle="bold"
+            android:textColor="#009586" />
+        <TextView
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="
+ يتم تناول الشمندر مفروماً مع السلطة أو على شكل عصير، أو يمكن سلقه وإضافة عصير الليمون الحامض إليه، حيث له أثر كبير في رفع الضغط المنخفض 
+
+"
+            android:textColor="#009586" />
+        <TextView
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="
+٣-.الزبيب:
+
+"
+            android:textStyle="bold"
+            android:textColor="#009586" />
+
+        <TextView
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="
+ يعتبر علاجا ممتازا لانخفاض ضغط الدم بشكل طبيعي . انقع حفنة حوالي 30-40 من الزبيب في كوب ماء طوال الليل، ثم تناولها كلها في الصباح على الريق
+
+"
+            android:textColor="#009586" />
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

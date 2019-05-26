@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <LinearLayout
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:weightSum="4"
+        android:scrollbars="vertical"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#009586"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+            <Button
+                android:backgroundTint="#fff"
+                android:id="@+id/back"
+                android:layout_width="25dp"
+                android:layout_height="20dp"
+                android:background="@drawable/less" />
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="260dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:text="الأسعافات الاولية" />
+
+        </LinearLayout>
+
+        <ImageView
+
+            android:layout_width="400dp"
+            android:layout_height="300dp"
+            android:scaleType="center"
+            android:src="@drawable/aqq"/>
+
+        <TextView
+
+
+            android:textSize="25sp"
+           android:text=" عند ارتفاع ضغط الدم بصورة ملحوظة يجب عليك الذهاب فورا الى الى قسم الطوارئ الموجود في المستشفيات لمعاينة الحالة وعمل الاحتياطات اللازمة ليتم خفض ضغط الدم  وهذه بعض النصائح التي يمكن عملها لخفض ضغط الدم لحين الحصول على العلاج من المستشفى:
+"
+           android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#009586" />
+
+        <TextView
+
+
+            android:textSize="25sp"
+            android:text="
+١-.  التنفس :يعتبر من اكثر الاساليب فعالية في خفض ضغط الدم  "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#009586" />
+        <TextView
+
+
+            android:textSize="25sp"
+            android:text="
+ ٢-. شرب الشاي : يمكن شرب اربعة اكواب من الشاي يوميا للسيطرة على الضغط
+ "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#009586" />
+
+
+        <TextView
+
+
+            android:textSize="25sp"
+            android:text="٣-. المشي : تعتبر رياضة المشي السريع من الوسائل التي تخفض ضغط الدم
+ لذلك ينصح بممارستها مده نصف ساعه يوميا "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#009586" />
+
+        <TextView
+
+
+            android:textSize="25sp"
+            android:text="٤-. تناول الثوم : يحتوي على كمية كبيرةمن العناصر الغذائية
+            الضرورية لصحة الجسم والتي تساعد على خفض ضغط الدم
+"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#009586" />
+
+        <TextView
+
+
+            android:textSize="25sp"
+            android:text="  ٥-.  اللوز: اكل اللوز يساعد في خفض ضغط الدم "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#009586" />
+        <TextView
+
+
+            android:textSize="25sp"
+            android:text="   ٦-. تناول الفلفل الاحمر : يساعد في خفض ضغط الدم  "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#009586" />
+
+
+
+        <TextView
+
+
+            android:textSize="25sp"
+            android:text="          ٧-.تناول الكاكاو : يمتلك الكاكاو قدرة كبيرة على تنظيم
+             افراز هرمونات التوتر وبالتالي يقلل من ضغط الدم 
+         "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#009586" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/aa44"/>
+
+        <TextView
+
+            android:textSize="25sp"
+            android:text="١-.  وضع الشخص مستلقيا على ظهره ورفع الساقين "
+                 android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#009586" />
+
+        <TextView
+
+
+            android:textSize="25sp"
+            android:text="
+ ٢-. مزج ملعقة من العسل في كوب من الماء واضافه قليل من الملح لذلك وشربه فورا  "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#009586" />
+        <TextView
+
+            android:textSize="25sp"
+            android:text="
+٣-.شرب القهوة يعطي الإغاثة الفورية لهذه الحالة 
+
+ "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#009586" />
+        <TextView
+
+
+            android:textSize="25sp"
+            android:text="
+٤-. شرب الكثير من الماء "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#009586" />
+
+
+    </LinearLayout>
+</ScrollView>

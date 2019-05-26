@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <LinearLayout
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:weightSum="4"
+        android:scrollbars="vertical"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#009586"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+            <Button
+                android:backgroundTint="#fff"
+                android:id="@+id/back"
+                android:layout_width="25dp"
+                android:layout_height="20dp"
+                android:background="@drawable/less" />
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="260dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:layout_marginLeft="30dp"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:text="انواعه" />
+
+        </LinearLayout>
+
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:scaleType="center"
+            android:src="@drawable/aa4"/>
+        <TextView
+            android:textSize="30sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="أرتفاع ضغط الدم الاولي : "
+
+            android:textStyle="bold"
+            android:textColor="#009586" />
+
+        <TextView
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" يمثل ما يقارب تسعين بالمئة من مرضى الضغط وهو مجهول السبب وتؤثر عليه عوامل عديدة  مثل تقدم العمر وزياده الوزن وغيرها 
+  
+أرتفاع ضغط الدم الثانوي : يمثل العشرة بالمئة المتبقية و يكون ناتجا عن مرض اخر و يكون كعرض من اعراضه مثل تضيق شريان الابهر و تناول بعض الأدوية و غيرها
+
+"
+            android:textColor="#009586" />
+
+        <ImageView
+             android:scaleType="center"
+            android:src="@drawable/aa5"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"/>
+
+        <TextView
+
+            android:textSize="30sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="انخفاض ضغط الدم الحاد والشديد : "
+            android:textColor="#009586" />
+
+        <TextView
+
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" يكون فيه الانخفاض مفاجئا ويعتبر مهددا لحياة المريض 
+
+
+انخفاض ضغط الدم الوضعي او انخفاض ضغط الدم الانتصابي: عادة ما يحصل عند الوقوف المفاجئ بعد الاسترخاء او الجلوس و ينتشر بشكل كبير بين كبار السن ممن تجاوز ال 65 من عمره 
+
+
+
+ ويكون انخفاض ضغط الدم ناتج عن انخفاض لحجم الدم , التغيرات الهرمونية ,  اتساع الأوعية الدموية , الاثار الجانبية للدواء , فقر الدم , مشاكل في القلب او مشاكل في الغده الصماء وايضا في الحمل بسبب توسع الأوعية الدموية بسرعه وعند انخفاض نسبه السكر في الدم  والتعرض لمواقف نفسيه صعبه تسبب الحزن المفاجئ واحيانا نتيجة عوامل وراثية"
+
+            android:textColor="#009586" />
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

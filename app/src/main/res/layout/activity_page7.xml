@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <LinearLayout
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:weightSum="4"
+        android:scrollbars="vertical"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#009586"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+            <Button
+                android:backgroundTint="#fff"
+                android:id="@+id/back"
+                android:layout_width="25dp"
+                android:layout_height="20dp"
+                android:background="@drawable/less" />
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="260dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:text="الوقاية" />
+
+        </LinearLayout>
+
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:scaleType="center"
+            android:src="@drawable/ass4"/>
+
+
+        <TextView
+
+            android:textSize="25sp"
+            android:text="١-. تقليل الوزن الى الوزن الطبيعي"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#009586" />
+
+        <TextView
+
+
+            android:textSize="25sp"
+            android:text="
+٢-. اعلاج الامراض والمشكلات التي تسبب ارتفاع ضغط الدم
+"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#009586" />
+
+        <TextView
+
+
+            android:textSize="25sp"
+            android:text="
+٣-.ممارسة الرياضة المختلفة واهمها المشي والاستمرار عليها"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#009586" />
+
+        <TextView
+
+
+            android:textSize="25sp"
+            android:text="
+٤-. الابتعاد عن التدخين وتناول المشروبات الكحولية والتقليل من المشروبات التي تحتوي على الكافايين
+"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#009586" />
+
+        <TextView
+
+
+            android:textSize="25sp"
+            android:text="
+٥-. تجنب مسببات الاشياء المسببة للقلق والضغوط النفسية
+قياس ضغط الدم باستمرار ومتابعه
+"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#009586" />
+
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/banner_ad_unit_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            />
+    </LinearLayout>
+</ScrollView>

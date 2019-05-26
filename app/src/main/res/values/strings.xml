@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name"> ضغط الدم</string>
+    <string name="banner">ca-app-pub-9163877730510135/3855886439</string>
+    <string name="yellow">Yellow</string>
+    <string name="purple">Purple</string>
+    <string name="blue">Blue</string>
+    <string name="fragment11"> Fragment11</string>
+    <string name="fragment22">Fragment22</string>
+
+
+    <string name="banner_ad_unit_id">ca-app-pub-9047312463087687/8155024405</string>
+    <string name="app_id">ca-app-pub-9047312463087687~3094269413</string>
+    <string name="interstitial_ad_sample">ca-app-pub-9047312463087687/6841942735</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fragment3">Fragment3</string>
+    <string name="fragment44">Fragment44</string>
+    <string name="text1">
+        ١-دوخة بالراس.
+
+
+
+٢-الشعور بالغثيان.
+
+
+
+٣-غثيان و تقيؤ.
+
+
+
+٤- برود الجلد .
+
+
+
+٥-تنفس سريع وغيرعميق.
+
+
+
+٦-الشعور بالم في الصدر.
+
+
+
+٧-ضيق في التنفس.
+
+
+
+٨-زياده وعدم انتظام ضربات القلب.
+
+
+
+٩-الشعور بارتفاع درجة الحرارة.
+
+"</string>
+
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Hello Food!</string>
+    <string name="slide_1_desc">The easiest way to order food from your favourite restaurant!</string>
+
+    <string name="slide_2_title">Movie Tickets</string>
+    <string name="slide_2_desc">Book movie tickets for your family and friends!</string>
+
+    <string name="slide_3_title">Great Discounts</string>
+    <string name="slide_3_desc">Best discounts on every single service we offer!</string>
+
+    <string name="slide_4_title">World Travel</string>
+    <string name="slide_4_desc">Book tickets of any transportation and travel the world!</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+</resources>

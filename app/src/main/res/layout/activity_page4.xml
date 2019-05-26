@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <LinearLayout
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:weightSum="4"
+        android:scrollbars="vertical"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#009586"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+            <Button
+                android:backgroundTint="#fff"
+                android:id="@+id/back"
+                android:layout_width="25dp"
+                android:layout_height="20dp"
+                android:background="@drawable/less" />
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="260dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:layout_marginLeft="30dp"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:text="أعراضه" />
+
+        </LinearLayout>
+
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:scaleType="center"
+            android:src="@drawable/aa7"/>
+
+        <TextView
+
+
+            android:textSize="30sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ان مرض ضغط الدم يسمى القاتل الصامت لأنه يوصل المريض الى مضاعفات هذا المرض مثل السكتات والجلطات القلبية والدماغية والفشل الكلوي بدون اي انذار مسبق لذلك يجب على كل شخص ان يقيس ضغطه من فتره لأخرى وفي بعض الحيان يصاحب ارتفاع ضغط الدم بعض الاعراض مثل :"
+            android:textColor="#009586" />
+
+
+        <TextView
+
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="١-الوزن الزائد."
+            android:textColor="#009586" />
+
+        <TextView
+          android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="٢-دوخة."
+            android:textColor="#009586" />
+
+        <TextView
+        android:textSize="25sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="٣-غثيان و تقيؤ."
+        android:textColor="#009586" />
+
+        <TextView
+       android:textSize="25sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="٤-ارهاق عام و اضطراب."
+        android:textColor="#009586" />
+
+
+        <TextView
+       android:textSize="25sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="٥-مشاكل في الرؤية."
+        android:textColor="#009586" />
+        <TextView
+
+
+            android:textSize="25sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="٦-الام في الصدر."
+        android:textColor="#009586" />
+        <TextView
+
+
+            android:textSize="25sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="٧-خفقان في القلب."
+        android:textColor="#009586" />
+
+
+        <TextView
+        android:textSize="25sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="٨-صعوبة في التنفس."
+        android:textColor="#009586" />
+        <TextView
+
+
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="٩-دم في البول."
+            android:textColor="#009586" />
+
+
+        <ImageView
+            android:src="@drawable/aa6"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"/>
+
+        <TextView
+
+
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="١-دوخة بالراس."
+            android:textColor="#009586" />
+
+
+        <TextView
+
+
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="٢-الشعور بالغثيان."
+            android:textColor="#009586" />
+
+        <TextView
+
+
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="٣-غثيان و تقيؤ."
+            android:textColor="#009586" />
+        <TextView
+
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="٤- برود الجلد"
+            android:textColor="#009586" />
+        <TextView
+
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="٥-تنفس سريع وغيرعميق."
+            android:textColor="#009586" />
+        <TextView
+
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="٦-الشعور بالم في الصدر."
+            android:textColor="#009586" />
+        <TextView
+
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="٧-ضيق في التنفس."
+            android:textColor="#009586" />
+        <TextView
+
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="٨-زياده وعدم انتظام ضربات القلب."
+            android:textColor="#009586" />
+        <TextView
+
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="٨-صعوبة في التنفس."
+            android:textColor="#009586" />
+        <TextView
+
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="٩-الشعور بارتفاع درجة الحرارة."
+            android:textColor="#009586" />
+
+
+    </LinearLayout>
+
+</ScrollView>

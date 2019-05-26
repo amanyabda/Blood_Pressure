@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <LinearLayout
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:weightSum="4"
+        android:scrollbars="vertical"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#009586"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+            <Button
+                android:backgroundTint="#fff"
+                android:id="@+id/back"
+                android:layout_width="25dp"
+                android:layout_height="20dp"
+                android:background="@drawable/less" />
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="260dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:layout_marginLeft="30dp"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:text="التشخيص" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:scaleType="center"
+            android:src="@drawable/aa8"/>
+
+        <TextView
+
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="التشخيص الصحيح يساوي العلاج الصحيح ان اي خطأ بالتشخيص يساوي خطأ بالعلاج "
+            android:textStyle="bold"
+            android:textColor="#009586" />
+
+        <ImageView
+            android:scaleType="center"
+            android:src="@drawable/aa9"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"/>
+
+        <TextView
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="يتم تشخيص مرض ارتفاع ضغط الدم عن طريق قياس الضغط  على فترات متباعدة على الاقل اربع ساعات بين كل مره واخرى ويتم ذلك باستخدام جهاز الضغط الزئبقي او الالكتروني اما الفحوصات التي يتم عملها فهي فحص الزلال (البروتين) وفحص وجود الدم في البول ونسبه اليوريا والكرياتين في البول  لمعرفه مدى تأثر الكلى بالضغط وتخطيط للقلب وقياس الكولسترول ونسبه السكر في الدم
+ اما في حاله كون المريض شابا وضغط الدم نوعه ثانوي يتم اجراء العديد من الفحوصات منها 17 هيدروكسي بروجسترون في البول وعمل تصوير طبقي  للبطن
+
+" android:textColor="#009586" />
+
+
+        <ImageView
+
+            android:src="@drawable/aa10"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"/>
+
+        <TextView
+
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textStyle="bold"
+            android:text="يمكن القول بانك تعاني من انخفاض بضغط الدم اذا قمت بقياس ضغطك و وجدته اقل من  80/ 120 ملم حيث تكون القراءة المعتادة لضغط الدم هي 80/ 120 ملم للأشخاص المصابين بانخفاض ضغط الدم"
+            android:textColor="#009586" />
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>
